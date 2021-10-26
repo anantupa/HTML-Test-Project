@@ -1,0 +1,59 @@
+label {
+  color: yellowgreen !important; /* Important tag - Override all the css types  */
+}
+
+#pass {
+  color: violet;
+  background-color: rgb(119, 112, 105);
+  font-size: 100px;
+}
+
+.a {
+  color: steelblue;
+  background-color: black;
+  font-size: 20px;
+}
+
+#font {
+  color: rgb(63, 48, 146);
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: bolder;
+  text-decoration: underline;
+  font-size: 40px;
+  letter-spacing: 5px;
+  background-image: url(925004670s.jpg);
+}
+
+#asa {
+  color: darkmagenta;
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline dashed;
+  font-weight: bolder lighter;
+  background-image: url(925004670s.jpg);
+  height: 768px;
+  width: 1024px;
+  background-image: url();
+}
+#alt {
+  color: rgb(134, 88, 42);
+  background-color: rgb(134, 94, 150);
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  /* margin : top right bottom left */
+  margin: 10px 30px 40px 43px !important;
+}
+.name {
+  border: black solid;
+  /*text-decoration-line: line-through;*/
+  text-decoration-color: blueviolet;
+  text-decoration-style: solid;
+  height: 300px;
+  background-image: url(https://www.cis.upenn.edu/~matuszek/cit594-2012/Pages/backtracking_files/treesearch.gif);
+  /* background-color: cadetblue;
+  background-image: linear-gradient(124deg, yellowgreen, blueviolet);*/
+  background-color: azure;
+}
