@@ -57,3 +57,10 @@ label {
   background-image: linear-gradient(124deg, yellowgreen, blueviolet);*/
   background-color: azure;
 }
+.image1 {
+  background: yellow;
+  background-image: url(925004670s.jpg);
+  background-size: cover;
+  height: 800px;
+  width: 1500px;
+}
