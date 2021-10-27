@@ -7,6 +7,19 @@ body {
   text-align: center;
   line-height: 1.5;
 }
+h2 {
+  margin: 0;
+  padding: 1em 0;
+}
+p {
+  margin: 0;
+  padding: 1em 0;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .bg {
   position: absolute;
   background-image: url(https://static.pexels.com/photos/248515/pexels-photo-248515.png);
@@ -20,6 +33,8 @@ body {
 }
 #headerID {
   text-align: center;
+  min-height: 450px;
+  color: #fff;
 }
 
 #headerID h1 {
@@ -36,4 +51,28 @@ body {
   background: #fff;
   color: #333;
   cursor: grabbing;
+}
+#section-a {
+  background-color: #eaeaea;
+  color: #333;
+  padding-bottom: 2em;
+  display: block;
+}
+
+#section-b {
+  display: grid;
+  padding: 2em;
+}
+#section-b ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+#section-b li {
+  background: #fff;
+  color: #333;
+  width: 31%;
+  margin-bottom: 1em;
 }
