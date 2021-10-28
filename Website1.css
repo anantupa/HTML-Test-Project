@@ -50,7 +50,7 @@ img {
   /* It is used for change the color of the link */
   background: #fff;
   color: #333;
-  cursor: grabbing;
+  cursor: pointer;
 }
 #section-a {
   background-color: #eaeaea;
@@ -75,4 +75,28 @@ img {
   color: #333;
   width: 31%;
   margin-bottom: 1em;
+}
+#section-c {
+  background-color: #fff;
+  color: #333;
+  padding: 0 2em 0 2em;
+  display: block;
+}
+#section-d {
+  display: flex;
+}
+#section-d .box {
+  padding: 1em;
+}
+#section-d .box:first-child {
+  background: rgb(55, 154, 194);
+}
+#footer {
+  background: black;
+  color: #fff;
+  display: flex;
+  padding: 2em;
+}
+#footer div:last-child {
+  margin-left: auto;
 }
